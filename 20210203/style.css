@@ -1,0 +1,49 @@
+body {
+    background-color: aqua;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.egydolog {
+    color: green;
+}
+
+.azon {
+    color: black;
+}
+
+h1, h2 {
+    border-bottom: 2px solid red;
+}
+
+ol li {
+    font-weight: bold;
+}
+
+ul li.azon {
+    color: white;
+}
+
+.masik {
+    color: red;
+}
+
+a:link {
+    border: 2px solid red;
+}
+
+.linkek {
+    background-color: beige;
+}
+
+.linkek a:link {
+    font-weight: bold;
+}
+
+p {
+    /* border: 2px solid blue; */
+    padding: 10px;
+    background-color: burlywood;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login page</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="row">
+    <h1 class="col-12">Login</h1>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input class="form-control" type="email" id="email" />
+            <div class="invalid-feedback" id="WEmail">Email does not exists.</div>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input class="form-control" type="password" id="password" />
+            <div class="invalid-feedback" id="WPass">Wrong password.</div>
+        </div>
+        <button class="btn btn-primary" onclick="check();">Submit</button>
+    </div>
+    </div>
+    <div class="alert alert-success hidden" id="loginAlert">
+        Successfull login!
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

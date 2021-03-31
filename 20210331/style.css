@@ -1,0 +1,7 @@
+.oddelement {
+    background-color: lightgray;
+}
+
+.bad {background-color: lightcoral;}
+.ok {background-color: lightcyan;}
+.good {background-color: lightgreen;}
